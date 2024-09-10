@@ -1,0 +1,22 @@
+.btn{
+    text-decoration: none;
+    color: #008080;
+    border: 3px #dd5e9e solid;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}   	
+.btn:hover{
+    background-color: #eeb9d3;
+    color: #008080;
+    padding: 10px;
+}
+
+.h1{
+font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    font-family: Matemasie;
+}
