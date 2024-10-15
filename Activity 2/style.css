@@ -1,32 +1,36 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #008080;
+    background-color: #63CBD6;
     color: white;
 }
 
 .container {
     display: flex;
+    position: fixed;
     justify-content: space-between;
-    margin: 20px;
+    margin-top: 80px;
+    margin-left: 200px;
 }
 
 .playlist {
-    width: 60%;
-    background-color: #5fafa2; /* Background for the box */
-    padding: 20px; /* Padding inside the box */
-    border-radius: 8px; /* Rounded corners */
+    width: 100%;
+    color: #272525;
+    background-color: #008080; 
+    padding: 20px;
+    border-radius: 8px; 
     border: 1px solid #ccc;
-    margin-top: 5%;
+    margin: auto;
+    position: relative;
 }
 
 .add-song {
-    width: 35%;
-    background-color:#5fafa2; /* Background for the add song box */
-    padding: 20px; /* Padding inside the box */
-    border-radius: 8px; /* Rounded corners */
+    width: 50%;
+    background-color: #008080; 
+    padding: 20px; 
+    border-radius: 8px; 
     border: 1px solid #ccc;
-    margin-top: 5%;
-    margin-left: 30%;
+    margin: auto;
+    margin-left: 100px;
 }
 
 h2 {
@@ -41,7 +45,8 @@ h2 {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #ddd8d8;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 .song {
@@ -52,20 +57,20 @@ h2 {
 }
 
 .song-title {
-    color: #000000;
     font-weight: bold;
     margin: 0; 
+    color: rgb(255, 255, 255);
 }
 
 .artist-name {
     display: block; 
     font-size: 0.9em; 
-    color: #4e4646; 
+    color: #272525; 
     margin: 0; 
 }
 
 button {
-    background-color: #bd0000;
+    background-color: #c91111;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -73,7 +78,7 @@ button {
 }
 
 button:hover {
-    background-color: #d44444;
+    background-color: #ff1a1a;
 }
 
 #add-button {
@@ -86,15 +91,17 @@ button:hover {
 }
 
 #add-button:hover {
-    background-color: darkblue; 
+    background-color: rgb(50, 50, 212); 
 }
 
 .add-song {
-    display: flex; 
+    display: flex;
     flex-direction: column; 
+    color: #272525;
+    position: relative;
 }
 
 #add-button {
     align-self: center; 
-    margin-top: 15px;
+    margin: auto; 
 }
